@@ -1,0 +1,490 @@
+
+*{
+
+    margin: 0%;
+    padding: 0;
+}
+
+
+#nav-bar{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    position: fixed;
+    margin-top: 0%;
+    border-radius: 20px;
+    
+}
+#logo{
+
+    height: 70px;
+    width: 80px;
+    border-radius: 10px;
+ 
+}
+
+#nav-text{
+    margin-right: 30px;
+    float: right;
+    margin-top: 20px;    
+    color: white;
+
+    
+ }
+
+li{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+}
+
+li:hover{
+    cursor: pointer;
+    padding: 5px;
+   border-bottom: 2px solid rgb(255, 255, 255);
+    
+}
+
+
+
+#using_flex{
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card1{
+    display: inline-block;
+    height: 400px;
+    width: 300px;    
+    /* margin-left: 20px; */
+    margin-top: 120px;
+    /* vertical-align: top; */
+}
+
+.img-one{
+    width: 140px;
+    height: 190px;
+    margin-top: 10px;
+    margin-left: 50px;
+    transition: all 1s ease-in-out ;
+ 
+}
+
+h3{
+    text-align: center;
+    font-size: 14px;
+}
+span{
+    font-size: 13px;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+
+button{
+    padding: 10px;
+    transition: all 3s;
+    border-radius: 7px;
+
+}
+
+
+.card2{
+    display: inline-block;
+    height: 430px;
+    width: 300px;
+    /* margin-left: 20px; */
+    margin-top: 120px;
+    /* vertical-align: top; */
+}
+
+.img-two{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+    transition: all 1s ease-in-out ;
+ 
+}
+
+.card3{
+    display: inline-block;
+    height: 400px;
+    width: 300px;
+    /* margin-left: 20px; */
+    margin-top: 120px;
+    /* vertical-align: top; */
+}
+
+.img-three{
+    width: 170px;
+    height: 170px;
+    margin-top: 10px;
+    margin-left: 50px;
+    transition: all 1s ease-in-out ;
+ 
+}
+
+
+.card4{
+    display: inline-block;
+    height: 400px;
+    width: 300px;
+    /* margin-left: 20px; */
+    margin-top: 120px;
+    /* vertical-align: top; */
+}
+
+.img-four{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+    transition: all 1s ease-in-out ;
+ 
+}
+
+.card5{
+    display: inline-block;
+    height: 400px;
+    width: 300px;
+    /* margin-left: 20px; */
+    margin-top: 120px;
+    /* vertical-align: top; */
+}
+
+.img-five{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+    transition: all 1s ease-in-out ;
+ 
+}
+
+.card6{
+    display: inline-block;
+    height: 400px;
+    width: 300px;
+    /* margin-left: 20px; */
+    margin-top: 120px;
+    /* vertical-align: top; */
+}
+
+.img-six{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+    transition: all 1s ease-in-out ;
+ 
+}
+
+
+.card7{
+    display: inline-block;
+    height: 400px;
+    width: 300px;
+    /* margin-left: 20px; */
+    margin-top: 120px;
+    /* vertical-align: top; */
+}
+
+.img-seven{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+    transition: all 1s ease-in-out ;
+ 
+}
+
+.card8{
+    display: inline-block;
+    height: 400px;
+    width: 300px;
+    /* margin-left: 20px; */
+    margin-top: 120px;
+    /* vertical-align: top; */
+}
+
+.img-eight{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+    transition: all 1s ease-in-out ;
+ 
+}
+.card9{
+    display: inline-block;
+    height: 500px;
+    width: 300px;
+    /* margin-left: 20px; */
+    margin-top: 120px;
+    /* vertical-align: top;/ */
+}
+
+.img-nine{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+    transition: all 1s ease-in-out ;
+ 
+}
+
+.card10{
+    display: inline-block;
+    height: 500px;
+    width: 300px;
+    /* margin-left: 20px; */
+    margin-top: 120px;
+    /* vertical-align: top; */
+}
+
+.img-ten{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+    transition: all 1s ease-in-out ;
+ 
+}
+
+
+.card11{
+    display: inline-block;
+    height: 500px;
+    width: 300px;
+    /* margin-left: 20px; */
+    margin-top: 120px;
+    /* vertical-align: top; */
+}
+
+.img-eleven{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+    transition: all 1s ease-in-out ;
+ 
+}
+
+.card12{
+    display: inline-block;
+    height: 400px;
+    width: 300px;
+    /* margin-left: 20px; */
+    margin-top: 120px;
+    /* vertical-align: top; */
+}
+
+.img-twelve{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+    transition: all 1s ease-in-out ;
+ 
+}
+
+
+.card13{
+    display: inline-block;
+    height: 500px;
+    width: 300px;
+    /* margin-left: 20px; */
+    margin-top: 120px;
+    /* vertical-align: top; */
+}
+
+.img-thirteen{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+    transition: all 1s ease-in-out ;
+ 
+}
+
+.card14{
+    display: inline-block;
+    height: 500px;
+    width: 300px;
+    /* margin-left: 20px; */
+    margin-top: 120px;
+    /* vertical-align: top; */
+}
+
+.img-fourteen{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+    transition: all 1s ease-in-out ;
+ 
+}
+
+
+.card15{
+    display: inline-block;
+    height: 600px;
+    width: 300px;
+    /* margin-left: 20px; */
+    margin-top: 120px;
+    /* vertical-align: top; */
+}
+
+.img-fifteen{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+    transition: all 1s ease-in-out ;
+ 
+}
+
+.card16{
+    display: inline-block;
+    height: 500px;
+    width: 300px;
+    /* margin-left: 20px; */
+    margin-top: 120px;
+    /* vertical-align: top; */
+}
+
+.img-sixteen{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+    transition: all 1s ease-in-out ;
+ 
+}
+
+.card17{
+    display: inline-block;
+    height: 500px;
+    width: 300px;
+    /* margin-left: 20px; */
+    margin-top: 120px;
+    /* vertical-align: top; */
+}
+
+.img-seventeen{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+    transition: all 1s ease-in-out ;
+ 
+}
+
+.card18{
+    display: inline-block;
+    height: 500px;
+    width: 300px;
+    /* margin-left: 20px; */
+    margin-top: 120px;
+    vertical-align: top;
+}
+
+.img-eighteen{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+    transition: all 1s ease-in-out ;
+ 
+}
+
+.card19{
+    display: inline-block;
+    height: 500px;
+    width: 300px;
+
+    /* margin-left: 20px; */
+    margin-top: 120px;
+    vertical-align: top;
+}
+
+.img-nineteen{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+    transition: all 1s ease-in-out ;
+ 
+}
+
+.card20{
+    display: inline-block;
+    height: 500px;
+    width: 300px;
+    /* margin-left: 20px; */
+    margin-top: 120px;
+    vertical-align: top;
+    
+}
+
+.img-twenty{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+    transition: all 1s ease-in-out ;
+ 
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 100%;
+height: 60px;
+background-color: black;
+text-align: center;
+margin-top: 20px;
+
+
+}
+
+#footer a{
+    color: white;   
+}
+
+#footer a:hover{
+    cursor: pointer;
+
+    transform: scale(2);
+}
+
+
+
+.img-hover:hover{
+    cursor: pointer;
+   transform: scale(1.1,1.1);
+}
+
+.card:hover{
+    cursor:default;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 20px 20px 10px rgb(0, 0, 0);
+}
+
+button:hover{
+    cursor: pointer;
+    color: red;
+    background-color: black;
+}
+
+
+
+
+
+
+
